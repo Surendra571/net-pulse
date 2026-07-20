@@ -1,6 +1,8 @@
-# net-pulse
+# net-pulse 🚀
+> **Lightweight Network Telemetry Pipeline**
 
 A high-performance, zero-dependency network performance streaming engine designed for Linux environment pipeline integration. `net-pulse` interacts directly with system-native sockets using only the Python Standard Library to gather ultra-low-level network metrics, streaming them as structured JSON data optimized for tools like `jq`.
+
 
 ## Features
 
@@ -8,6 +10,9 @@ A high-performance, zero-dependency network performance streaming engine designe
 - **Low-Level Telemetry:** Measures true OS-level DNS resolution performance and raw TCP handshake latencies.
 - **Stream-Optimized Output:** Emits compact JSON strings with instant standard output flushes, ensuring seamless integration with standard Unix pipelines.
 - **Enterprise Hygiene:** 100% compliant with PEP 8 standards, verified by `black` and `flake8`.
+
+
+  
 
 ## Installation & Setup
 
@@ -19,12 +24,16 @@ cd net-pulse
 
 ```
 
+
+
+
 *(Optional) Install development tools if you wish to run formatting or linting checks:*
 
 ```bash
 pip install -r requirements.txt
 
 ```
+
 
 ## Usage
 
@@ -36,6 +45,8 @@ Pipe the engine's stream directly into `jq` for beautifully formatted, real-time
 python run.py | jq
 
 ```
+
+
 
 ### Production Data Pipeline Output Example
 
@@ -89,6 +100,8 @@ When active, the stream provides structural insights into connection states, lat
 
 ```
 
+
+
 ## Development & Code Quality
 
 Maintain codebase hygiene using the integrated workspace tooling:
@@ -99,10 +112,9 @@ black src/ run.py
 
 # Lint compliance validation
 flake8 src/ run.py
-
 ```
 
-```
+
 
 
 This provides a comprehensive summary of the project's engineering choices while embedding the pipeline output to demonstrate its functionality instantly.
