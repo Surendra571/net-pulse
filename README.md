@@ -1,5 +1,5 @@
 # net-pulse 🚀
-> **Lightweight Network Telemetry Pipeline**
+> **A zero-dependency, pipeline-native network telemetry streaming engine.**
 
 A high-performance, zero-dependency network performance streaming engine designed for Linux environment pipeline integration. `net-pulse` interacts directly with system-native sockets using only the Python Standard Library to gather ultra-low-level network metrics, streaming them as structured JSON data optimized for tools like `jq`.
 
